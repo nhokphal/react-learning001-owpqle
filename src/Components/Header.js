@@ -3,9 +3,10 @@ import Button from '@material-ui/core/Button';
 
 function Header(){
     return(
-      <div>
-      <h1 style={{backgroundColor: "black",padding: "10px" }}>Reuters</h1>   
-      </div>
+        <div>
+          <h1>No reuters</h1>
+            <p>This is paragraph</p>
+          </div>
     )
 }
 export default Header;
