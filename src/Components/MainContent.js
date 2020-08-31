@@ -1,15 +1,23 @@
 import React from "react"
 import { Text, StyleSheet } from "react-native"; 
+import {Accordion, Card, Button} from 'react-bootstrap';
 
 function MainContent(){
-    return(
-      <div>
-          <h1>This is main page</h1>
-                <p>This is where we write text</p>
+    return( <div>
+          <Card style={{ width: '18rem' }}>
+        <Card.Body>
+          <Card.Title>Card Title</Card.Title>
+          <Card.Subtitle className="mb-2 text-muted">Card Subtitle</Card.Subtitle>
+          <Card.Text>
+            Some quick example text to build on the card title and make up the bulk of
+            the card's content.
+          </Card.Text>
+          <Card.Link href="#">Card Link</Card.Link>
+          <Card.Link href="#">Another Link</Card.Link>
+            </Card.Body>
+          </Card>
 
-        </div>
-       
-
+</div>
     )
     
 }
