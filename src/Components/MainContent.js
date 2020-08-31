@@ -4,7 +4,7 @@ import {Accordion, Card, Button} from 'react-bootstrap';
 
 function MainContent(){
     return( <div>
-          <Card style={{ width: '18rem' }}>
+          <Card style={{ width: '20rem' }}>
         <Card.Body>
           <Card.Title>Card Title</Card.Title>
           <Card.Subtitle className="mb-2 text-muted">Card Subtitle</Card.Subtitle>
