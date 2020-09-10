@@ -5,10 +5,8 @@ import {Accordion, Card, Nav} from 'react-bootstrap';
 function Header(){
     return(
         <div>
-          <h1>No reuters</h1>
-            <p>This is paragraph</p>
-              
-          </div>
+              <h1 style={{color: "red"}}>Hello Style!</h1>
+        </div>
     )
 }
 export default Header;
