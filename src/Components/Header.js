@@ -1,12 +1,15 @@
 import React from "react"
 import Button from '@material-ui/core/Button';
 import {Accordion, Card, Nav} from 'react-bootstrap';
+import React, { Component } from 'react';
 
-function Header(){
-    return(
-        <div>
-              <h1 style={{color: "rgb(255, 204, 0)", backgroundColor: "Black"}}>Router</h1>
-        </div>
-    )
-}
+class Header extends Component {
+  render() {
+      return <div className="Header" />;
+      <div>
+      <h1>Router</h1>
+      </div>
+                
+                }
+      }
 export default Header;
