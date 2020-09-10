@@ -5,7 +5,7 @@ import {Accordion, Card, Nav} from 'react-bootstrap';
 function Header(){
     return(
         <div>
-              <h1 style={{color: "red"}}>Hello Style!</h1>
+              <h1 style={{color: "rgb(255, 204, 0)", backgroundColor: "Black"}}>Router</h1>
         </div>
     )
 }
